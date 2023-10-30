@@ -1,0 +1,20 @@
+/* Estilos para el ícono de la lupa */
+.navbar-toggler .navbar-toggler-icon:nth-child(1) {
+    display: none; /* Oculta el primer ícono en pantallas grandes */
+  }
+  
+  .navbar-toggler .navbar-toggler-icon.lupa {
+    display: inline-block; /* Muestra el segundo ícono en pantallas grandes */
+  }
+  
+  /* Media query para pantallas más pequeñas, como dispositivos móviles */
+  @media (max-width: 768px) {
+    .navbar-toggler .navbar-toggler-icon:nth-child(1) {
+      display: inline-block; /* Muestra el primer ícono en pantallas pequeñas */
+    }
+    
+    .navbar-toggler .navbar-toggler-icon.lupa {
+      display: none; /* Oculta el segundo ícono en pantallas pequeñas */
+    }
+  }
+  
