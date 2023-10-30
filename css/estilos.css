@@ -1,20 +1,36 @@
-/* Estilos para el ícono de la lupa */
-.navbar-toggler .navbar-toggler-icon:nth-child(1) {
-    display: none; /* Oculta el primer ícono en pantallas grandes */
-  }
-  
-  .navbar-toggler .navbar-toggler-icon.lupa {
-    display: inline-block; /* Muestra el segundo ícono en pantallas grandes */
-  }
-  
-  /* Media query para pantallas más pequeñas, como dispositivos móviles */
-  @media (max-width: 768px) {
-    .navbar-toggler .navbar-toggler-icon:nth-child(1) {
-      display: inline-block; /* Muestra el primer ícono en pantallas pequeñas */
-    }
-    
-    .navbar-toggler .navbar-toggler-icon.lupa {
-      display: none; /* Oculta el segundo ícono en pantallas pequeñas */
-    }
-  }
-  
+header{
+  background-color: #ff8d01;
+
+
+}
+
+
+
+.aside{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+ 
+  border: 5px  solid   #EE8506;
+border-radius: 40px;
+ height: 500px;
+ width: 20%;
+ background-color: #333333;
+
+ margin-left: 2%;
+ margin-top: 2%;
+}
+
+hr{
+  background-color:  #ff8d01;
+  height: 5px;
+  opacity: 0;
+
+}
+
+main{
+  display: flex;
+
+
+
+}
