@@ -1,24 +1,19 @@
+
 header{
   background-color: #ff8d01;
-
-
 }
 
 
-
 .aside{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
   border: 5px  solid   #EE8506;
-border-radius: 40px;
- height: 500px;
- width: 20%;
- background-color: #333333;
-
- margin-left: 2%;
- margin-top: 2%;
+  border-radius: 40px;
+  height: 500px; 
+  background-color: #333333;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 hr{
@@ -28,9 +23,29 @@ hr{
 
 }
 
-main{
+.main{
   display: flex;
-
-
+  justify-content: center;
+  align-items: center;
 
 }
+
+.comentarios2{
+  display:  flex;
+  justify-content: space-evenly; 
+
+}
+
+li a{
+  height: 20px;
+  width: 20px;
+}
+
+
+textarea{
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
