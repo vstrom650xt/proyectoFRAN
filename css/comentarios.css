@@ -1,4 +1,54 @@
-.navbar{
+body{
+    background-color:  #ff8d01 !important;
 
-    background-color: yellowgreen !important;
+
+}
+
+.navbar.navbar-expand-lg{
+    height: 20%;
+
+    background-color:  #FDE7B5  !important;
+}
+
+.btn .btn-outline-success{
+    background-color: #000 !important;
+    color: #000 !important;
+
+    border-color: rgb(20, 20, 20) !important;
+}
+
+
+.btn .btn-outline-success:hover{
+    background-color: #000 !important;  
+      color: #000 !important;
+}
+
+
+
+svg{
+
+    background-image: url(../img/usuario.png);
+    background-size:cover;
+    background-position:center;
+
+}
+
+.claselogo{
+    height: 100px;
+    width: 150px;
+
+}
+.eldivisor{
+
+    size: 50px !important;
+    height: 100px;
+    width: auto;
+
+}
+
+hr{
+    size: 50px !important;
+
+
+
 }
