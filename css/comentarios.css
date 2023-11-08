@@ -13,7 +13,6 @@ body{
 .btn .btn-outline-success{
     background-color: #000 !important;
     color: #000 !important;
-
     border-color: rgb(20, 20, 20) !important;
 }
 
@@ -38,17 +37,14 @@ svg{
     width: 150px;
 
 }
-.eldivisor{
 
-    size: 50px !important;
-    height: 100px;
-    width: auto;
-
-}
 
 hr{
-    size: 50px !important;
-
-
-
+    margin-top: 0 !important;
+    display: flex;
+    align-items: flex-start;
+    background-color:  #333333 !important;
+    height: 15px;
+    opacity: 1 !important;  
+    width: 100% !important;
 }
