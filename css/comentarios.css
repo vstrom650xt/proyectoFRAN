@@ -1,50 +1,48 @@
-body{
-    background-color:  #ff8d01 !important;
-
-
+body {
+    background-color: #ff8d01 !important;
 }
 
-.navbar.navbar-expand-lg{
+.navbar.navbar-expand-lg {
     height: 20%;
 
-    background-color:  #FDE7B5  !important;
+    background-color: #FDE7B5 !important;
 }
 
-.btn .btn-outline-success{
+.btn .btn-outline-success {
     background-color: #000 !important;
     color: #000 !important;
     border-color: rgb(20, 20, 20) !important;
 }
 
 
-.btn .btn-outline-success:hover{
-    background-color: #000 !important;  
-      color: #000 !important;
+.btn .btn-outline-success:hover {
+    background-color: #000 !important;
+    color: #000 !important;
 }
 
 
 
-svg{
+svg {
 
     background-image: url(../img/usuario.png);
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
 
 }
 
-.claselogo{
+.claselogo {
     height: 100px;
     width: 150px;
 
 }
 
 
-hr{
+hr {
     margin-top: 0 !important;
     display: flex;
     align-items: flex-start;
-    background-color:  #333333 !important;
+    background-color: #333333 !important;
     height: 15px;
-    opacity: 1 !important;  
+    opacity: 1 !important;
     width: 100% !important;
 }
