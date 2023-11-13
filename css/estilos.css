@@ -13,7 +13,7 @@ body{
 }
 
 
-.aside{
+.aside-izq{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly; 
@@ -23,8 +23,24 @@ body{
   background-color: #333333;
   margin-left: 2%;
   margin-top: 2%;
-  /*align-items: center;*/
+}
 
+.aside-der{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  border: 5px  solid   #EE8506;
+  border-radius: 40px;
+  height: 100%; 
+  background-color: #333333;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.centrador{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -73,7 +89,6 @@ textarea{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 500px;
 }
 
@@ -106,20 +121,83 @@ background-repeat: no-repeat;
   height: 50px;
   background-size:contain;
   background-image: url(../img/italia-96.png);
-  background-repeat: no-repeat;
- 
+  background-repeat: no-repeat; 
 }
 
 .usuariologo{
-  height: 50px;
-  width: 50px;
-
+  height: 80px;
+  width: 80px;
   background-size:contain;
   background-image: url(../img/usuario-bg.png) !important;
   background-repeat: no-repeat;
 }
 
 p{
-
   color: white;
 }
+.btn-wrapper{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.barrablanc{
+  justify-content: center;
+  background-color:  #ffffff;
+  width: 50%;
+}
+
+.btnbajo{
+  border-radius: 40px;
+  background-color: #EE8506;  
+  width: 100px;
+  height: 30px;
+}
+
+.casa{
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/home.png) !important;
+  background-size:contain;
+  background-repeat: no-repeat; 
+
+}
+
+
+.registro{
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/comment.png) !important;
+  background-size:contain;
+  background-repeat: no-repeat; 
+
+}
+
+
+.subir{
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/upload.png) !important;
+  background-size:contain;
+  background-repeat: no-repeat; 
+
+
+}
+
+.cont-cent{
+  display: flex;
+  width: 350px !important ;
+  height: 150px !important ;
+  justify-content: center;
+  border: 5px solid  #EE8506; 
+  background-color: #333333;
+  border-radius: 40px;
+}
+
+.btn-sus{
+
+  align-items: flex-end;
+}
+
+
+
