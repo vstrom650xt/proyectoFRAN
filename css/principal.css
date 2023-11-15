@@ -17,18 +17,71 @@ body {
 
 
 
-svg {
+.bd-placeholder-img1{
 
-    background-image: url(../img/usuario.png);
-    background-size: cover;
-    background-position: center;
+  background-image: url(../img/vd1.jpg) !important;
+  background-size: cover;
+  background-position: center;
 
 }
+.bd-placeholder-img2{
 
+  background-image: url(../img/vd2.webp);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd-placeholder-img3{
+
+  background-image: url(../img/vd3.jpeg);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd-placeholder-img4{
+
+  background-image: url(../img/vd4.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd-placeholder-img5{
+
+  background-image: url(../img/vd5.jpg);
+  background-size: cover;
+  background-position: center;
+
+}.bd-placeholder-img6{
+
+  background-image: url(../img/vd6.webp);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd-placeholder-img1{
+
+  background-image: url(../img/vd7.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd-placeholder-img1{
+
+  background-image: url(../img/vd8.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd-placeholder-img1{
+
+  background-image: url(../img/vd9.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
 .claselogo {
     height: 100px;
     width: 150px;
-
 }
 
 
