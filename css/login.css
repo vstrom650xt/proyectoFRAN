@@ -14,6 +14,17 @@ body {
   height: 100%;
 }
 
+
+.form-button:hover {
+  background: #333333;
+}
+
+.form-button {
+  transition: background 0.3s ease-in-out;
+}
+.login-form:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 .wrap {
 
   width: 100%;
@@ -40,11 +51,9 @@ body {
   border-radius: 40px;
   border: 5px solid #EE8506;
 
-
 }
 
 .form-group {
-
   margin-bottom: 1rem;
 }
 

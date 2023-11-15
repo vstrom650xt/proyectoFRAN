@@ -12,6 +12,15 @@ body {
   border-radius: 40px;
 }
 
+.logo{
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  background-image: url(../img/logo.png);
+  height: 100%;
+  width: 100%;
+}
+
 .contain {
   max-width: 1170px;
   margin-left: auto;
@@ -79,6 +88,7 @@ ul {
   border: 5px solid #EE8506;
   color: #fff;
 }
+
 
 
 
