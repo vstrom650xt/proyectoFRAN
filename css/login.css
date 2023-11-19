@@ -67,7 +67,9 @@ body {
 }
 
 .form-header {
-  text-align: center;
+  background-image: url(../img/logo.png);
+  height: 100px;
+  width: 150px;
   margin-bottom: 2rem;
 }
 
