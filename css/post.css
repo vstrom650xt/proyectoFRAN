@@ -119,6 +119,7 @@ p {
 
 .btnbajo,
 .btnsus {
+  
   border-radius: 40px;
   background-color: #EE8506;
   justify-content: space-between;
@@ -154,7 +155,7 @@ p {
   border: 5px solid #EE8506;
   background-color: #333333;
   border-radius: 40px;
-  margin: 10px auto;
+  margin:  auto;
 }
 
 .cont-cent {
@@ -239,6 +240,12 @@ iframe {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.container{
+
+display: flex;
+}
+
+
 
 @media(width<1111px) {
   .aside-bj {
@@ -255,8 +262,7 @@ iframe {
   
 }
 
-@media(width>990px) {
- 
+@media(width>990px) { 
   .aside-bj,.nav-text {
       display: none;
   }
