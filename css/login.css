@@ -63,14 +63,21 @@ body {
   color: #ffffff;
   padding: 10px;
   width: 100%;
-  text-transform: uppercase;
 }
 
 .form-header {
   background-image: url(../img/logo.png);
-  height: 100px;
-  width: 150px;
-  margin-bottom: 2rem;
+  background-size: cover;
+  background-position: center;
+display: flex ;
+margin-bottom: 2rem;
+justify-content: center;
+height: 150px;
+}
+
+.form-header>p{
+  color: white;
+  font-size: 50px;
 }
 
 .form-footer {
