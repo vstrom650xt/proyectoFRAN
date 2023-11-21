@@ -22,9 +22,11 @@ body {
 .form-button {
   transition: background 0.3s ease-in-out;
 }
+
 .login-form:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .wrap {
 
   width: 100%;
@@ -69,13 +71,13 @@ body {
   background-image: url(../img/logo.png);
   background-size: cover;
   background-position: center;
-display: flex ;
-margin-bottom: 2rem;
-justify-content: center;
-height: 150px;
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  height: 150px;
 }
 
-.form-header>p{
+.form-header>p {
   color: white;
   font-size: 50px;
 }

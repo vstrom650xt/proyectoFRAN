@@ -119,7 +119,7 @@ p {
 
 .btnbajo,
 .btnsus {
-  
+
   border-radius: 40px;
   background-color: #EE8506;
   justify-content: space-between;
@@ -155,7 +155,7 @@ p {
   border: 5px solid #EE8506;
   background-color: #333333;
   border-radius: 40px;
-  margin:  auto;
+  margin: auto;
 }
 
 .cont-cent {
@@ -194,11 +194,12 @@ p {
 
 /* VIDEO */
 
-iframe {
+video {
   width: 100%;
   height: 500px;
 }
-.mainContain{
+
+.mainContain {
 
   width: 100%;
 }
@@ -240,70 +241,78 @@ iframe {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.container{
 
-display: flex;
+.container {
+
+  display: flex;
 }
 
 
 
 @media(width<1111px) {
   .aside-bj {
-      display: block;
+    display: block;
   }
+
   .aside-der,
-  .aside-izq{
-      display: none;
+  .aside-izq {
+    display: none;
   }
+
   .btnbajo {
-      width: 80px;
-      height: 35px;
+    width: 80px;
+    height: 35px;
   }
-  
+
 }
 
-@media(width>990px) { 
-  .aside-bj,.nav-text {
-      display: none;
+@media(width>990px) {
+
+  .aside-bj,
+  .nav-text {
+    display: none;
   }
 
 }
 
 @media (width<1300px) {
   .video {
-      width: 750px;
-      height: 400px;
+    width: 750px;
+    height: 400px;
   }
 }
 
 @media (width<1000px) {
   .video {
-      width: 650px;
-      height: 330px;
+    width: 650px;
+    height: 330px;
   }
 }
 
 @media (width<800px) {
   .video {
-      width: 450px;
-      height: 330px;
+    width: 450px;
+    height: 330px;
   }
 }
+
 @media (width<660px) {
   .video {
-      width: 350px;
-      height: 330px;
+    width: 350px;
+    height: 330px;
   }
 }
+
 @media (width<800px) {
   .uno {
-      width: 300px;
+    width: 300px;
   }
-  
+
 }
+
 @media (width<800px) {
   .uno {
-      width: 300px;
+    width: 300px;
   }
-  
+
 }
